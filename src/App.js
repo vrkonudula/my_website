@@ -1,10 +1,16 @@
+import Header from "./sections/header";
+import About from "./sections/about";
+import Info from "./sections/info";
+import News from "./sections/news";
 import "./styles.css";
 
 export default function App() {
   return (
-    <nav className="nav-style">
-      <div>Home</div>
-      <div>About Publications</div>
-    </nav>
+    <>
+      <Header />
+      <About />
+      <Info />
+      <News />
+    </>
   );
 }
