@@ -4,9 +4,8 @@ import twitter from "../images/twitter.gif";
 import linkedin from "../images/linkedin.gif";
 import github from "../images/github.gif";
 import Publications from "../images/Publications.gif";
-import home from "../images/home.gif";
 
-{/*
+/*
 export default function Header() {
   return (
     <nav className="nav-style">
@@ -45,18 +44,12 @@ export default function Header() {
     </nav>
   );
 }
-*/}
+*/
 
 export default function Header() {
   return (
     <nav className="navbar">
       <div className="home">Home</div>
-      <a href = '#' class = "toggle-button">
-        <span class = "bar"></span>
-        <span class = "bar"></span>
-        <span class = "bar"></span>
-        <span class = "bar"></span>
-      </a>
       <div className='navbar-links'>
         <ul>
           <li><a href="https://scholar.google.com/citations?user=RvuhSGQAAAAJ&hl=en">Publications</a><img className = "extras-gif" src={Publications} alt="" /></li>
