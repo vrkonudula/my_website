@@ -4,6 +4,7 @@ import twitter from "../images/twitter.gif";
 import linkedin from "../images/linkedin.gif";
 import github from "../images/github.gif";
 import Publications from "../images/Publications.gif";
+import "../styles.css";
 
 /*
 export default function Header() {

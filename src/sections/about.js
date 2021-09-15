@@ -1,6 +1,7 @@
 import React from "react";
 import Vasanth_dp from "../images/Vasanth_dp.jpg";
 import "../about.css";
+import "../styles.css";
 
 
 export const About = () => {

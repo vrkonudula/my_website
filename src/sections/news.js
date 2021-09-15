@@ -1,5 +1,6 @@
 import React from "react";
 import "../about.css";
+import "../styles.css";
 import New from "../images/New.gif";
 
 export const News = () => {
