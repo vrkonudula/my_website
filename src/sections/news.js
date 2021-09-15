@@ -2,7 +2,7 @@ import React from "react";
 import "../about.css";
 import New from "../images/New.gif";
 
-export default function News() {
+export const News = () => {
   return (
     <div>
       <h2 className="news-me"> Extras </h2>

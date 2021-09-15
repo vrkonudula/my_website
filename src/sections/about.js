@@ -3,7 +3,7 @@ import Vasanth_dp from "../images/Vasanth_dp.jpg";
 import "../about.css";
 
 
-export default function About() {
+export const About = () => {
   return (
     <div className="card">
       <img className = "img-header" src={Vasanth_dp} alt="profile" />

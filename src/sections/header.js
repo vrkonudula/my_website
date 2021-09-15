@@ -46,7 +46,7 @@ export default function Header() {
 }
 */
 
-export default function Header() {
+export const Header = () => {
   return (
     <nav className="navbar">
       <div className="home">Home</div>

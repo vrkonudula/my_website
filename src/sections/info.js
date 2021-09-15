@@ -1,7 +1,7 @@
 import React from "react";
 import "../about.css";
 
-export default function Info() {
+export const Info = () => {
   return (
     <div className = 'extrabox1'>
 
